@@ -1,0 +1,29 @@
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.container{
+    margin: 20px auto;
+    background: linear-gradient(12deg, yellow, green );       
+    display: flex;
+}
+ul{
+    flex: 1 0 35%;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 10px;
+   background: linear-gradient(red, white)
+}
+li{
+    list-style-type: none;
+    background: darkcyan;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
